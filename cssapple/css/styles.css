@@ -1,8 +1,17 @@
+/* ***************tags selector*************** */
 h1 {
     color: red;
     font-size: 200px;
 }
 
-img {
+/* img {
+    background-color: black;
+} */
+/* ***************class selector*************** */
+.baccon {
     background-color: red;
+}
+
+.broccoli {
+    background-color: yellow;
 }
