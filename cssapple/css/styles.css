@@ -4,9 +4,9 @@ h1 {
     font-size: 200px;
 }
 
-/* img {
-    background-color: black;
-} */
+img:hover {
+    background-color: yellow;
+}
 /* ***************class selector*************** */
 .baccon {
     background-color: red;
@@ -15,7 +15,17 @@ h1 {
 .broccoli {
     background-color: yellow;
 }
+.circular {
+    border-radius: 100%;
+}
 
 .apple {
     background-color: green;
+}
+.circular{
+    border-radius: 100%;
+}
+/* ************** id selector **************** */
+#heading{
+    color: green;
 }
