@@ -39,7 +39,8 @@ h3{
 }
 
 .bottom-container{
-    
+    background-color: #66BFBF;
+    margin-top: 20px;   
 }
 .web{
     text-decoration: underline;
@@ -75,4 +76,19 @@ h3{
     float: right;
     margin-right: 30px;
     margin-left: 30px;
+}
+
+.btn{
+    color: #EAF6F6;
+    background-color: #66BFBF;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.copyright{
+    color: #EAF6F6;
+}
+
+.footer-link{
+    color: #11999E;
 }
