@@ -7,6 +7,7 @@ body{
 
 
 h1{
+    color: #66BFBF;
     font-size: 5.625rem;
     margin-top: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -14,12 +15,14 @@ h1{
 }
 
 h2{
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem; 
 
 }
 
 h3{
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -44,11 +47,32 @@ h3{
 
 .top-cloud{
     position: absolute;
-    left: 600px;
+    left: 800px;
     top: 50px;
 }
 
 .bottom-cloud{
     position: absolute;
     left: 200px;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 20px;   
+}
+
+.web-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.java-img{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+    margin-left: 30px;
 }
