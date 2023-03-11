@@ -1,4 +1,5 @@
 body{
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -35,7 +36,7 @@ h3{
 }
 
 .middle-container{
-
+    margin: 100px 0 100px 0;
 }
 
 .bottom-container{
