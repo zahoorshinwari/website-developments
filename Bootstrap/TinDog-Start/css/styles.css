@@ -3,6 +3,10 @@
     background-color: #ff4c68;
 }
 
+.container{
+    padding: 3% 15%;
+}
+
 h1{
     
     font-family: 'Montserrat', sans-serif;
