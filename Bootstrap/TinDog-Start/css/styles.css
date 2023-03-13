@@ -1,43 +1,42 @@
-
-
-body{
+body {
     font-family: 'Montserrat', sans-serif;
-    
+
 }
 
-#title{
+#title {
     background-color: #ff4c68;
     color: #fff;
-    
+
 }
 
-.container{
+.container {
     padding: 3% 15%;
 }
 
-h1{
-    
+h1 {
+
     font-family: 'Montserrat', sans-serif;
-    
-    line-height: 1.5; 
+
+    line-height: 1.5;
 }
-    /* navigation bar */
 
-    .navbar{
-        margin-bottom: 4.5rem;
-    }
+/* navigation bar */
 
-    .navbar-brand{
+.navbar {
+    margin-bottom: 4.5rem;
+}
+
+.navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-.nav-item{
+.nav-item {
     padding: 0 18px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
 
@@ -46,13 +45,13 @@ h1{
 
 /* download buttons */
 
-.download-button{
+.download-button {
     margin: 5% 3% 5% 0;
 }
 
 /* title image */
 
-.title-image{
+.title-image {
     width: 60%;
     transform: rotate(25deg);
 }
@@ -61,48 +60,49 @@ h1{
 
 /* features */
 
-#features{
+#features {
     margin: 7% 10%;
-    
+
 }
 
-.font-awsome{
-    
+.font-awsome {
+
     color: #ef8172;
     text-align: center;
     margin: auto 42%;
 }
-.font-awsome:hover{
-    color: #ff4c68 ;
+
+.font-awsome:hover {
+    color: #ff4c68;
 }
 
-h3{
+h3 {
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     padding-top: 12px;
 }
 
-p{
+p {
     color: #8f8f8f;
-    text-align: center;
+    
 }
 
 /* Testimonials  section*/
 
-#testimonials{
-    
+#testimonials {
+
     text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
 
-h2{
-    font-size: 'Montserrat' , sans-serif;
+h2 {
+    font-size: 'Montserrat', sans-serif;
     font-size: 1.5rem;
 }
 
-.testimonials-image{
+.testimonials-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
@@ -110,17 +110,36 @@ h2{
 }
 
 
-#press{
+#press {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 }
 
-.press-logo{
+.press-logo {
     width: 15%;
     margin: 20px 20px 50px;
 }
 
-.carousel-item{
+.carousel-item {
     padding: 7% 10%;
+}
+
+
+
+/* pricing section */
+.full-btn{
+    width: 100%;
+}
+
+
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+
+.pricing-coloumn{
+    padding: 3% 2%;
 }
