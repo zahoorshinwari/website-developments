@@ -87,3 +87,38 @@ p{
     color: #8f8f8f;
     text-align: center;
 }
+
+/* Testimonials  section*/
+
+#testimonials{
+    padding: 7% 10%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2{
+    font-size: 'Montserrat' , sans-serif;
+    font-size: 1.5rem;
+}
+
+.tesimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+
+/* press section */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
