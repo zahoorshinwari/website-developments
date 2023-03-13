@@ -56,3 +56,34 @@ h1{
     width: 60%;
     transform: rotate(25deg);
 }
+
+
+
+/* features */
+
+#features{
+    margin: 10% 10%;
+    
+}
+
+.font-awsome{
+    font-size: 4rem;
+    color: #ef8172;
+    text-align: center;
+    margin: auto 42%;
+}
+.font-awsome:hover{
+    color: #ff4c68 ;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 12px;
+}
+
+p{
+    color: #8f8f8f;
+    text-align: center;
+}
