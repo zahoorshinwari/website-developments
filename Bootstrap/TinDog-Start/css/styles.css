@@ -5,12 +5,12 @@ body {
 
 #title {
     background-color: #ff4c68;
-    color: #fff;
+    color: #fff; 
 
 }
 
 .container {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -52,35 +52,50 @@ h1 {
 /* title image */
 
 .title-image {
-    width: 60%;
+    
     transform: rotate(25deg);
+    position: absolute;
+    left: 60%;
+    top: 20%; 
+    height: 60%;  
 }
-
 
 
 /* features */
 
 #features {
-    margin: 7% 10%;
+    
+    
+    background-color: #fff;
+    position: relative;
+    
+}
 
+.contain{
+    background-color: #fff;
+    position: relative;
+    padding-top: 5%;
+}
+.feature-box{
+    position: relative;
+   
+    text-align: center;
+    padding: 4.5%;
 }
 
 .font-awsome {
 
     color: #ef8172;
-    text-align: center;
-    margin: auto 42%;
+    text-align: center; 
+    margin-bottom: 1rem;
 }
 
 .font-awsome:hover {
     color: #ff4c68;
 }
 
-h3 {
-    text-align: center;
-    font-size: 1.5rem;
+h3 { 
     font-family: 'Montserrat', sans-serif;
-    padding-top: 12px;
 }
 
 p {
