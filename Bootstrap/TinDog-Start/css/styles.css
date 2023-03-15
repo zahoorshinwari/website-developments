@@ -97,7 +97,7 @@ h1 {
 
 h3 { 
     font-family: 'Montserrat', sans-serif;
-    
+    font-size: 1.5rem;
 }
 
 p {
@@ -163,6 +163,36 @@ h2 {
 
 
 
+
+
+
+
+/* call of action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15%;
+    
+}
+
+.cta_heading{
+    font-size: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    line-height: 1.5;
+}
+
+/* footer section */
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 7% 15%;
+}
+
+.social_icon{
+    margin: 20px 10px;
+}
+
 /* media query section */
 
 @media(max-width: 1000px){
@@ -179,19 +209,4 @@ h2 {
     }
 
     
-}
-
-
-
-
-/* call of action */
-#cta{
-    background-color: #ff4c68;
-    text-align: center;
-    
-}
-
-#footer{
-    text-align: center;
-    background-color: #fff;
 }
