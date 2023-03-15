@@ -97,6 +97,7 @@ h1 {
 
 h3 { 
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 p {
@@ -162,7 +163,7 @@ h2 {
 
 
 
-
+/* media query section */
 
 @media(max-width: 1000px){
     #title{
@@ -178,4 +179,19 @@ h2 {
     }
 
     
+}
+
+
+
+
+/* call of action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    
+}
+
+#footer{
+    text-align: center;
+    background-color: #fff;
 }
