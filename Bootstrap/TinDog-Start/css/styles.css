@@ -56,8 +56,9 @@ h1 {
     transform: rotate(25deg);
     position: absolute;
     left: 60%;
-    top: 20%; 
-    height: 60%;  
+    height: 60%;
+    bottom: 25%;
+      
 }
 
 
@@ -157,4 +158,24 @@ h2 {
 
 .pricing-coloumn{
     padding: 3% 2%;
+}
+
+
+
+
+
+@media(max-width: 1000px){
+    #title{
+        text-align: center;
+        
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        padding-top: 100px;
+        width: 70%;
+        height: 100%;
+    }
+
+    
 }
