@@ -23,18 +23,22 @@ p {
     line-height: 1.5rem;
     font-size: 3rem;
 }
-
+/* container */
 .container {
     padding: 7% 15%;   
 }
 
-/* title section */
-#title {
+/* section */
+.colored-section{
     background-color: #ff4c68;
     color: #fff; 
-
 }
 
+.white-section{
+    background-color: #fff;
+}
+
+/* title section */
 #title .container{
     padding: 3% 7%;
 }
@@ -85,7 +89,7 @@ p {
 /* features */
 
 #features { 
-    background-color: #fff;
+    
     position: relative;
     
 
@@ -123,7 +127,7 @@ p {
 
     text-align: center;
     background-color: #ef8172;
-    color: #fff;
+   
     padding-top: 7%;
 }
 
@@ -185,20 +189,14 @@ p {
 
 /* call of action */
 #cta{
-    background-color: #ff4c68;
-    text-align: center;
-    color: #fff;
-    
-    
+    text-align: center;   
 }
 
 
 
 /* footer section */
 #footer{
-    text-align: center;
-    background-color: #fff;
-    
+    text-align: center; 
 }
 
 .social_icon{
