@@ -71,30 +71,65 @@ console.log("value of b :" + b);
 
 ////////////// function ///////////////////////
 
-function getMilk() {
-    console.log("Leave house");
-    console.log("move left");
-    console.log("move left");
-    console.log("move up");
-    console.log("move up");
-    console.log("move up");
-    console.log("move up");
-    console.log("move up");
-    console.log("move up");
-    console.log("move right");
-    console.log("move right");
-    console.log("buy milk");
-    console.log("move left");
-    console.log("move left");
-    console.log("move down");
-    console.log("move down");
-    console.log("move down");
-    console.log("move down");
-    console.log("move down");
-    console.log("move down");
-    console.log("move right");
-    console.log("move right");
-}
+// function getMilk() {
+//     console.log("Leave house");
+//     console.log("move left");
+//     console.log("move left");
+//     console.log("move up");
+//     console.log("move up");
+//     console.log("move up");
+//     console.log("move up");
+//     console.log("move up");
+//     console.log("move up");
+//     console.log("move right");
+//     console.log("move right");
+//     console.log("buy milk");
+//     console.log("move left");
+//     console.log("move left");
+//     console.log("move down");
+//     console.log("move down");
+//     console.log("move down");
+//     console.log("move down");
+//     console.log("move down");
+//     console.log("move down");
+//     console.log("move right");
+//     console.log("move right");
+// }
 
-getMilk();
+// getMilk();
 //////////////////////////////////////////////////
+
+
+
+
+
+//////////////////////////////////////////////////
+///////// argument and parameter of the function /////////
+
+// function getMilk(money) {
+//     console.log("Leave house");
+//     console.log("move left");
+//     console.log("move left");
+//     console.log("move up");
+//     console.log("move up");
+//     console.log("move up");
+//     console.log("move up");
+//     console.log("move up");
+//     console.log("move up");
+//     console.log("move right");
+//     console.log("move right");
+//     var noOfbottles = Math.floor( money / 1.5 );
+//     console.log("buy " + noOfbottles + " milk");
+//     console.log("move left");
+//     console.log("move left");
+//     console.log("move down");
+//     console.log("move down");
+//     console.log("move down");
+//     console.log("move down");
+//     console.log("move down");
+//     console.log("move down");
+//     console.log("move right");
+//     console.log("move right");
+// }
+
+// getMilk(20);
