@@ -10,3 +10,5 @@ while(numberOfBottles >= 0){
     numberOfBottles--;
     console.log("No more " + " " + bottleWord + " of beer on the wall");
 }
+
+fizzbuzz();
