@@ -1,0 +1,65 @@
+DOM.html:46 Live reload enabled.
+document;
+#document<!DOCTYPE html><html lang=​"en">​<head>​…​</head>​<body>​…​</body>​</html>​
+document.firstElementChild;
+<html lang=​"en">​<head>​…​</head>​<body>​…​</body>​</html>​
+document.firstElementChild.lastElementChild;
+<body>​<h1>​Hello​</h1>​<input type=​"checkbox" name id>​<button>​Click Me​</button>​<ul>​…​</ul>​<!-- Code injected by live-server --><script>​…​</script>​</body>​
+document.firstElementChild.lastElementChild.firstElementChild;
+<h1>​Hello​</h1>​
+var heading = document.firstElementChild.lastElementChild.firstElementChild;
+undefined
+heading;
+<h1>​Hello​</h1>​
+heading.innerHTML = "good bye";
+'good bye'
+heading.style.color = yellow;
+VM2355:1 Uncaught ReferenceError: yellow is not defined
+    at <anonymous>:1:23
+(anonymous) @ VM2355:1
+heading.style.color = "yellow";
+'yellow'
+document.querySelector = ("input").click();
+VM2520:1 Uncaught TypeError: "input".click is not a function
+    at <anonymous>:1:36
+(anonymous) @ VM2520:1
+document.querySelector.("input").click();
+VM2598:1 Uncaught SyntaxError: Unexpected token '('
+document.querySelector("input").click();
+undefined
+document.querySelector("input").click();
+undefined
+document;
+#document<!DOCTYPE html><html lang=​"en">​<head>​…​</head>​<body>​…​</body>​</html>​
+document.firstElementChild;
+<html lang=​"en">​<head>​…​</head>​<body>​…​</body>​</html>​
+document.firstElementChild.lastElementChild.firstElementChild("Ul");
+VM3087:1 Uncaught TypeError: document.firstElementChild.lastElementChild.firstElementChild is not a function
+    at <anonymous>:1:45
+(anonymous) @ VM3087:1
+document.firstElementChild.lastElementChild.firstElementChild.querySelector("ul");
+null
+document.querySelector("ul");
+<ul>​…​</ul>​
+document.querySelector("ul").lastElementChild;
+<li>​::marker​"third"</li>​
+var name = document.querySelector("ul").lastElementChild;
+undefined
+name;
+'[object HTMLLIElement]'
+name
+'[object HTMLLIElement]'
+name.innerHTML = "zahoor";
+'zahoor'
+name
+'[object HTMLLIElement]'
+name.innerHTML = "zahoor";
+'zahoor'
+document.querySelector("ul").lastElementChild;
+<li>​::marker​"third"</li>​
+var list = document.querySelector("ul").lastElementChild;
+undefined
+list.innerHTML = "zahoor khan";
+'zahoor khan'
+list.style.color = "red";
+'red'
