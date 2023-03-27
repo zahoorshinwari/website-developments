@@ -4,5 +4,6 @@
 
 .codeHuge{
     font-size: 10rem;
-    color: yellow;
+    color: grey;
+    font-weight: bold;
 }
