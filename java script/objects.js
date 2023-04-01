@@ -3,9 +3,10 @@
 //     age : 23 , 
 //     experience : 5 ,
 //     language : ["english", "spanish", "urdu"]
+    
 // }
 
-// console.log(houseKeeper1.language);
+// console.log(houseKeeper1);
 
 
 // it is constructor function
@@ -23,6 +24,10 @@
 // console.log(bellBoy1);
 // console.log(bellBoy2);
 // console.log(bellBoy3);
+
+
+
+
 
 
 
