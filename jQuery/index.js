@@ -15,7 +15,7 @@
 
 
 // adding class
-$("h1").addClass("title-heading margin"); 
+// $("h1").addClass("title-heading margin"); 
 
 // removing class
 // $("h1").removeClass("title-heading");
@@ -42,3 +42,27 @@ $("h1").addClass("title-heading margin");
 // $("button").text("Don't Click Me");
 // $("button").html("<em>I am a button</em>");
 // $("h1").html("<p>there is changing the h1 into paragraph</p>");
+
+
+
+
+
+
+
+
+
+
+
+// changing attributes
+// src is the attribute and the tom2.png is the image that we want to add with it.
+$("img").attr("src", "images/tom2.png");
+
+
+// change the link of the anker from google to yahoo
+$("a").attr("href", "https://www.yahoo.com");
+
+
+// give the class to h1 and set the style to it.
+$("h1").attr("class", "title-heading margin")
+
+
