@@ -15,7 +15,7 @@
 
 
 // adding class
-// $("h1").addClass("title-heading margin"); 
+$("h1").addClass("title-heading margin"); 
 
 // removing class
 // $("h1").removeClass("title-heading");
@@ -95,3 +95,30 @@
 
 
 
+// adding eventlistener of keypress functionality to the element using jQuery
+// $("input").keypress(function(event) {
+//     console.log(event.key);
+// })
+
+
+
+// whole document
+
+// $("body").keypress(function(event) {
+//     console.log(event.key);
+// })
+
+
+
+
+
+// task( when click the button from keyboard then it can show instead of h1)
+$("input").keypress(function(event){
+    $("h1").text(event.key);
+})
+
+
+// whole document
+$("body").keypress(function(event){
+    $("h1").text(event.key);
+})
