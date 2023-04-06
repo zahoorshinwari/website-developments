@@ -53,16 +53,45 @@
 
 
 
-// changing attributes
+// changing attributes values using jquery
 // src is the attribute and the tom2.png is the image that we want to add with it.
-$("img").attr("src", "images/tom2.png");
+// $("img").attr("src", "images/tom2.png");
 
 
 // change the link of the anker from google to yahoo
-$("a").attr("href", "https://www.yahoo.com");
+// $("a").attr("href", "https://www.yahoo.com");
 
 
 // give the class to h1 and set the style to it.
-$("h1").attr("class", "title-heading margin")
+// $("h1").attr("class", "title-heading margin")
+
+
+
+
+
+
+
+
+
+
+
+// adding eventListener of click functionality to the elements using jQuery
+// $("button").click(function(){
+//     $("h1").css("color", "red");
+//     $("h1").addClass("title-heading margin");
+// })
+
+
+
+// using simple java script
+// for(var i = 0; i<3; i++){
+//     document.querySelectorAll("button")[i].addEventListener("click", function(){
+//         document.querySelector("h1").style.color = "pink";
+//     });
+// }
+
+
+
+
 
 
