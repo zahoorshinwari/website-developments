@@ -1,9 +1,16 @@
 .title-heading{
     color: yellow;
-    font-size: 15rem;
+    font-size: 10rem;
     font-family: cursive;
 }
 
 .margin{
     margin: 100px;
+}
+
+
+.size{
+    font-size: 10rem;
+    color: blue;
+    margin: 20px;
 }

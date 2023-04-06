@@ -9,7 +9,7 @@
 // using dollar sign to apply jquery
 // $("h1").css("font-size", "5rem");
 
-// writing jquery to apply jquery on elements or tags
+// writing jquery to apply jquery on elements or tags (also apply css using jquery)
 // jQuery("h1").css("color", "blue");
 
 
@@ -24,7 +24,7 @@ $("h1").addClass("title-heading margin");
 
 
 // to check that the class is apply on it or not
-// $("h1").hasClass("title-heading");
+$("h1").hasClass("title-heading");
 
 
 
@@ -84,7 +84,7 @@ $("h1").addClass("title-heading margin");
 
 
 // using simple java script
-// for(var i = 0; i<3; i++){
+// for(var i = 0; i<5; i++){
 //     document.querySelectorAll("button")[i].addEventListener("click", function(){
 //         document.querySelector("h1").style.color = "pink";
 //     });
@@ -150,9 +150,25 @@ $("h3").on("click", function(){
 
 
 // adding and removing element with jQuery
-$("h4").before("<button>Before</button>");
-$("h4").after("<button>After</button>");
-$("h4").prepend("<button>Prepend</button>");
-$("h4").append("<button>Append</button>");
+$("h5").before("<button>Before</button>");
+$("h5").after("<button>After</button>");
+$("h5").prepend("<button>Prepend</button>");
+$("h5").append("<button>Append</button>");
 // to remove all the button that we added to it
 // $("button").remove();
+
+
+
+
+
+
+// adding class to h5
+$("h5").addClass("size");
+$("h5").text("this is heading no 5");
+$("h5").on("mouseover", function(){
+    $("h5").css("font-size", "5rem");
+})
+$("h5").on("click", function(){
+    $("h5").text("i was changed because of clicked");
+    $("h5").css("color", "red");
+})
