@@ -143,3 +143,16 @@ $("h2").on("mouseover", function(){
 $("h3").on("click", function(){
     $("h3").text("I am clicked now and i am changed");
 })
+
+
+
+
+
+
+// adding and removing element with jQuery
+$("h4").before("<button>Before</button>");
+$("h4").after("<button>After</button>");
+$("h4").prepend("<button>Prepend</button>");
+$("h4").append("<button>Append</button>");
+// to remove all the button that we added to it
+// $("button").remove();
