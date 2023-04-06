@@ -113,12 +113,33 @@ $("h1").addClass("title-heading margin");
 
 
 // task( when click the button from keyboard then it can show instead of h1)
-$("input").keypress(function(event){
-    $("h1").text(event.key);
-})
+// $("input").keypress(function(event){
+//     $("h1").text(event.key);
+// })
 
 
 // whole document
-$("body").keypress(function(event){
-    $("h1").text(event.key);
+// $("body").keypress(function(event){
+//     $("h1").text(event.key);
+// })
+
+
+
+
+
+
+
+
+
+// mouse come over on element and change it's color or text
+$("h2").on("mouseover", function(){
+    $("h2").css("color", "red");
+})
+
+
+
+
+// mouse click on element and change it's color or text
+$("h3").on("click", function(){
+    $("h3").text("I am clicked now and i am changed");
 })
