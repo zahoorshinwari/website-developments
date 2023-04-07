@@ -166,12 +166,73 @@ $("h3").on("click", function(){
 
 
 // adding class to h5
-$("h5").addClass("size");
-$("h5").text("this is heading no 5");
-$("h5").on("mouseover", function(){
-    $("h5").css("font-size", "7rem");
-})
-$("h5").on("click", function(){
-    $("h5").text("i was changed because of clicked");
-    $("h5").css("color", "red");
+// $("h5").addClass("size");
+// $("h5").text("this is heading no 5");
+// $("h5").on("mouseover", function(){
+//     $("h5").css("font-size", "7rem");
+// })
+// $("h5").on("click", function(){
+//     $("h5").text("i was changed because of clicked");
+//     $("h5").css("color", "red");
+// })
+
+
+
+
+
+
+
+
+
+
+
+// adding some animation using jquery
+// $("button").on("click", function(){
+//     $("h1").hide();
+//     // $("h1").show();
+// })
+
+// toggle the button
+// $("button").on("click", function(){
+//     $("h1").toggle();
+// })
+
+
+
+// fadeout , fadeIn , fadeToggle 
+// $("button").on("click", function(){
+//     // $("h1").fadeOut();
+//     // $("h1").fadeIn();
+//      $("h1").fadeToggle();
+// })
+
+
+
+
+// click image then slide up , slide down , and slideToggle
+// $("img").on("click", function(){
+//      // $("h1").slideUp();
+//      // $("h1").slideDown();
+//      $("h1").slideToggle();
+// })
+
+
+
+
+
+
+
+// giving some custom css as a animation using jquery
+// $("button").on("click", function(){
+//     // inside the curly braces only write the numeric values
+//     $("h1").animate({opacity:0.5 });
+//     $("h1").animate({margin : 20 });
+//     $("h1").animate({margin : "20%" });
+  
+// })
+
+// apply animation using different method
+$("button").on("click", function(){
+    $("h1").slideUp().slideDown().animate({opacity:0.5 });
+  
 })
