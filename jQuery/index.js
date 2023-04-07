@@ -121,6 +121,7 @@ $("h1").hasClass("title-heading");
 // whole document
 // $("body").keypress(function(event){
 //     $("h1").text(event.key);
+//     $("h1").css("font-size", "3rem");
 // })
 
 
@@ -132,9 +133,10 @@ $("h1").hasClass("title-heading");
 
 
 // mouse come over on element and change it's color or text
-$("h2").on("mouseover", function(){
-    $("h2").css("color", "red");
-})
+// $("h2").on("mouseover", function(){
+//     $("h2").css("color", "red");
+//     $("h2").text("mouse come over and text are change");
+// })
 
 
 
@@ -142,6 +144,7 @@ $("h2").on("mouseover", function(){
 // mouse click on element and change it's color or text
 $("h3").on("click", function(){
     $("h3").text("I am clicked now and i am changed");
+    $("h3").css("font-size", "5rem");
 })
 
 
@@ -150,10 +153,10 @@ $("h3").on("click", function(){
 
 
 // adding and removing element with jQuery
-$("h5").before("<button>Before</button>");
-$("h5").after("<button>After</button>");
-$("h5").prepend("<button>Prepend</button>");
-$("h5").append("<button>Append</button>");
+// $("h5").before("<button>Before</button>");
+// $("h5").after("<button>After</button>");
+// $("h5").prepend("<button>Prepend</button>");
+// $("h5").append("<button>Append</button>");
 // to remove all the button that we added to it
 // $("button").remove();
 
@@ -166,7 +169,7 @@ $("h5").append("<button>Append</button>");
 $("h5").addClass("size");
 $("h5").text("this is heading no 5");
 $("h5").on("mouseover", function(){
-    $("h5").css("font-size", "5rem");
+    $("h5").css("font-size", "7rem");
 })
 $("h5").on("click", function(){
     $("h5").text("i was changed because of clicked");
