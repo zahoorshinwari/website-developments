@@ -15,7 +15,8 @@
 
 
 // adding class
-$("h1").addClass("title-heading margin"); 
+$("h1").addClass("title-heading margin");
+$("h1").css("font-size", "10rem"); 
 
 // removing class
 // $("h1").removeClass("title-heading");
@@ -200,21 +201,21 @@ $("h3").on("click", function(){
 
 
 // fadeout , fadeIn , fadeToggle 
-// $("button").on("click", function(){
-//     // $("h1").fadeOut();
-//     // $("h1").fadeIn();
-//      $("h1").fadeToggle();
-// })
+$("button").on("click", function(){
+    // $("h1").fadeOut();
+    // $("h1").fadeIn();
+     $("h1").fadeToggle();
+})
 
 
 
 
 // click image then slide up , slide down , and slideToggle
-// $("img").on("click", function(){
-//      // $("h1").slideUp();
-//      // $("h1").slideDown();
-//      $("h1").slideToggle();
-// })
+$("img").on("click", function(){
+     // $("h1").slideUp();
+     // $("h1").slideDown();
+     $("h1").slideToggle();
+})
 
 
 
