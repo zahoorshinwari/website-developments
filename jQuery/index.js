@@ -27,7 +27,7 @@ $("h1").css("font-size", "10rem");
 // to check that the class is apply on it or not
 $("h1").hasClass("title-heading");
 
-
+$("h1").css("font-size", 10rem);
 
 
 
