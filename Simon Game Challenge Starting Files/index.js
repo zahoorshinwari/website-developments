@@ -18,7 +18,7 @@ function nextSequence (){
 
     // Use jQuery to select the button with the same id as the randomChosenColor
     // it is used to give the animation to the buttons that we can selected
-    $("#" + randomChoosenColor).fadeIn(100).fadeOut(100).fadeIn(100);
+    $("#" + randomChoosenColor).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100);
 
 
     // it is used to give the sounds to each of the buttons and play them
