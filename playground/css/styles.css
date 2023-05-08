@@ -15,7 +15,7 @@ body{
     position: fixed;
     
 }
-.blue{
+//.blue{
     background-color: blue;
     height: 100px;
     width: 100px;
@@ -25,7 +25,7 @@ body{
     
 }
 
-.yellow{
+//.yellow{
     background-color: yellow;
     height: 100px;
     width: 100px;
