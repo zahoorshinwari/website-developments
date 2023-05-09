@@ -1,0 +1,8 @@
+.div1{
+    font-size: xx-large;
+}
+
+
+div.para1>div.inner1>ul>li:first-line{
+    color: red;
+}
