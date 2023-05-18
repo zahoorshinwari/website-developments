@@ -1,33 +1,34 @@
 
 
 // using ready method and function to run jQuery
- $(document).ready(function(){
- $("h1").css("color", "green");
-});
+//  $(document).ready(function(){
+//  $("h1").css("color", "red");
+// });
 
 
 // using dollar sign to apply jquery
- $("h1").css("font-size", "5rem");
+//$("h1").css("font-size", "5rem");
+//$("h1").css("color", "yellow")
 
 // writing jquery to apply jquery on elements or tags (also apply css using jquery)
- jQuery("h1").css("color", "blue");
+//  jQuery("h1").css("color", "blue");
 
 
 
 // adding class
-$("h1").addClass("title-heading margin");
-$("h1").css("font-size", "10rem"); 
+ //$("h1").addClass("title-heading margin");
+// $("h1").css("font-size", "10rem"); 
 
 // removing class
-// $("h1").removeClass("title-heading");
+ //$("h1").removeClass("title-heading");
 
 
 
 
 // to check that the class is apply on it or not
-$("h1").hasClass("title-heading");
+//$("h1").hasClass("title-heading");
 
-$("h1").css("font-size", 10rem);
+// $("h1").css("font-size", 10rem);
 
 
 
@@ -39,10 +40,10 @@ $("h1").css("font-size", 10rem);
 
 // changing text of the element
 
-// $("h1").text("bye");
+ //$("h1").text("i am fine and what about you buddy?");
 // $("button").text("Don't Click Me");
-// $("button").html("<em>I am a button</em>");
-// $("h1").html("<p>there is changing the h1 into paragraph</p>");
+//  $("button").html("<em>I am a button</em>");
+//  $("h1").html("<p>there is changing the h1 into paragraph</p>");
 
 
 
@@ -60,7 +61,7 @@ $("h1").css("font-size", 10rem);
 
 
 // change the link of the anker from google to yahoo
-// $("a").attr("href", "https://www.yahoo.com");
+// $("a").attr("href", "https://www.facebook.com");
 
 
 // give the class to h1 and set the style to it.
@@ -98,7 +99,8 @@ $("h1").css("font-size", 10rem);
 
 // adding eventlistener of keypress functionality to the element using jQuery
 // $("input").keypress(function(event) {
-//     console.log(event.key);
+    
+//     console.log(event.key + " has been pressed");
 // })
 
 
@@ -106,7 +108,7 @@ $("h1").css("font-size", 10rem);
 // whole document
 
 // $("body").keypress(function(event) {
-//     console.log(event.key);
+//     console.log(event.key + "was pressed on the whole webpage");
 // })
 
 
@@ -115,14 +117,14 @@ $("h1").css("font-size", 10rem);
 
 // task( when click the button from keyboard then it can show instead of h1)
 // $("input").keypress(function(event){
-//     $("h1").text(event.key);
+//     $("h1").text(event.key + " is pressed in the textbox");
 // })
 
 
 // whole document
 // $("body").keypress(function(event){
-//     $("h1").text(event.key);
-//     $("h1").css("font-size", "3rem");
+//     $(".heading1").text(event.key + " key is pressed on the webpage");
+//     $(".heading1").css("font-size", "3rem");
 // })
 
 
@@ -143,10 +145,10 @@ $("h1").css("font-size", 10rem);
 
 
 // mouse click on element and change it's color or text
-$("h3").on("click", function(){
-    $("h3").text("I am clicked now and i am changed");
-    $("h3").css("font-size", "5rem");
-})
+// $("h3").on("click", function(){
+//     $("h3").text("I am clicked now and i am changed");
+//     $("h3").css("font-size", "5rem");
+// })
 
 
 
@@ -166,12 +168,14 @@ $("h3").on("click", function(){
 
 
 
+
 // adding class to h5
 // $("h5").addClass("size");
 // $("h5").text("this is heading no 5");
 // $("h5").on("mouseover", function(){
 //     $("h5").css("font-size", "7rem");
 // })
+
 // $("h5").on("click", function(){
 //     $("h5").text("i was changed because of clicked");
 //     $("h5").css("color", "red");
@@ -201,21 +205,21 @@ $("h3").on("click", function(){
 
 
 // fadeout , fadeIn , fadeToggle 
-$("button").on("click", function(){
-    // $("h1").fadeOut();
-    // $("h1").fadeIn();
-     $("h1").fadeToggle();
-})
+// $("button").on("click", function(){
+//     // $("h1").fadeOut();
+//     // $("h1").fadeIn();
+//      $("h1").fadeToggle();
+// })
 
 
 
 
 // click image then slide up , slide down , and slideToggle
-$("img").on("click", function(){
-     // $("h1").slideUp();
-     // $("h1").slideDown();
-     $("h1").slideToggle();
-})
+// $("img").on("click", function(){
+//       //$("h1").slideUp();
+//      //$("h1").slideDown();
+//      $("a , button , h1 , h2 , h3 , input , h5").slideToggle();
+// })
 
 
 
@@ -228,12 +232,13 @@ $("img").on("click", function(){
 //     // inside the curly braces only write the numeric values
 //     $("h1").animate({opacity:0.5 });
 //     $("h1").animate({margin : 20 });
-//     $("h1").animate({margin : "20%" });
+//     $("h1 , img").animate({margin : "20%" });
   
 // })
 
 // apply animation using different method
-$("button").on("click", function(){
-    $("h1").slideUp().slideDown().animate({opacity:0.5 });
+// $("button").on("click", function(){
+//     $("h1").slideUp().slideDown().animate({opacity:0.5 });
+//     $("h2,h3,input,h5").slideUp().slideDown().animate({opacity:0.3});
   
-})
+// })
