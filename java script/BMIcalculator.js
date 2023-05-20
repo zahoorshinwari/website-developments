@@ -5,5 +5,12 @@ function bmiCalculator(weight , height){
     return Math.round(BMI);
 }
 
-var bmi = bmiCalculator(65,1.8);
-console.log(bmi); 
+var bmi = bmiCalculator(64,1.65);
+if(bmi <= 25){
+    console.log(bmi + "\n body mass index is normal");
+}
+else{
+    console.log(bmi +  "\n body mass index is over weighted");
+}
+
+ 
