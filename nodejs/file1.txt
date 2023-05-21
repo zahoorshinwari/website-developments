@@ -1,0 +1,2 @@
+i am file 1 . 
+i will copy this text into the file2.txt
