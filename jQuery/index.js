@@ -1,5 +1,4 @@
 
-
 // using ready method and function to run jQuery
 //  $(document).ready(function(){
 //  $("h1").css("color", "red");
