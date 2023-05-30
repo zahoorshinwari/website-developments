@@ -9,16 +9,18 @@ const request = require("request");
 const app = express();
 
 // include the static file (images and css) to our site using this method
+// add the static file (images and css) to public folder
 app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({extended: true}));
 
 
-
+// when user come to root page then show the html interface
 app.get("/" , function(req , res){
     res.sendFile(__dirname + "/signup.html");
 });
 
+// take data from html file 
 app.post("/" , function(req , res){
     var firstName = req.body.fname;
     var lastName = req.body.lname;
