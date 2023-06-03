@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        To Do List
+    </title>
+</head>
+<body>
+
+    <!-- the below "kindOfDay " is a variable
+    which tells the file to replace what is inside this variable -->
+    
+
+
+
+    <!-- here in if and else statment we can only use to control the flow
+    <%        %>  it is used to run the simple javascript in ejs file
+                    write only control flow javascript like
+                        (if , else , for , while , do while  )  -->
+
+
+    <% if(kindOfDay === "saturday" || kindOfDay === "sunday"){ %>
+    <h1 style="color: purple;"><%= kindOfDay %> To Do List</h1>
+    <% } else{ %>
+        
+        <h1 style="color:blue;"><%= kindOfDay %> To Do List</h1>
+    <% } %>
+    
+    
+    
+    
+</body>
+</html>
