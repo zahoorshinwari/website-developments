@@ -8,48 +8,48 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
+
+
+
+var items = ["Buy Food" , "Cook Food" , "Eat Food"];
+
 // it is must to write here 
 // if not declare then our app can't work
 // it is view engine of ejs which we will use
 app.set('view engine', 'ejs');
 
-app.get("/" ,  (req , res) =>  {
-    var today = new Date();
-    var currentDay = today.getDay();
-    var day = "";
+app.use(bodyParser.urlencoded({extended: true}));
+
+
+app.get("/" , function (req , res)  {
     
-    switch(currentDay){
-        case 0:
-            day = "sunday"
-            break;
-            case 1:
-            day = "monday"
-            break;
-            case 2:
-            day = "tuesday"
-            break;
-            case 3:
-            day = "wednesday"
-            break;
-            case 4:
-            day = "thursday"
-            break;
-            case 5:
-            day = "friday"
-            break;
-            case 6:
-            day = "saturday"
-            break;
-            default:
-                console.log("Error: current day is equal to : " + currentDay);
+    var today = new Date();
+
+    var options = {
+        weekday : "long",
+        day : "numeric", 
+        month : "long"
     }
-    // use.rendor can use the view engine
+
+    var day = today.toLocaleDateString("en-US" , options);
+
+        // use.rendor can use the view engine
     // it can load the list.ejs file to view engine 
-    res.render("list" , {kindOfDay: day});
+    res.render("list" , {kindOfDay: day , newListItems: items});
 
 })
 
 
+// post request from the browser to server to add this item 
+// which are comes from list.ejs file
+// and then back send to the browser list item
+    app.post("/" , function(req , res){
+        var item = req.body.newItem;
+        
+        items.push(item);
+
+        res.redirect("/");
+    })
 
 
 
