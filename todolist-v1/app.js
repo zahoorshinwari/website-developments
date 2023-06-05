@@ -6,11 +6,15 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 
+// it is used to include our own module here that perform the 
+// date functionality to show in the webpage
+const date = require(__dirname + "/date.js")
+
 
  
 const app = express();
-var items = ["Buy Food" , "Cook Food" , "Eat Food"];
-var workItems = [];
+const items = ["Buy Food" , "Cook Food" , "Eat Food"];
+const workItems = [];
 
 // it is must to write here 
 // if not declare then our app can't work
@@ -24,15 +28,9 @@ app.use(express.static("public") );
 
 app.get("/" , function (req , res)  {
     
-    var today = new Date();
 
-    var options = {
-        weekday : "long",
-        day : "numeric", 
-        month : "long"
-    }
-
-    var day = today.toLocaleDateString("en-US" , options);
+    // here we want to export our own created module which is date.js
+    const day = date.getDate();
 
         // use.rendor can use the view engine
     // it can load the list.ejs file to view engine 
@@ -47,7 +45,7 @@ app.get("/" , function (req , res)  {
 // and then back send to the browser list item
     app.post("/" , function(req , res){
         
-        var item = req.body.newItem;
+        const item = req.body.newItem;
         
         if(req.body.list === "work"){
             workItems.push(item);
