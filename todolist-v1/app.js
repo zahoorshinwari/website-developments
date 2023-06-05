@@ -66,6 +66,12 @@ app.get("/" , function (req , res)  {
     // it is for the /work page
     app.get("/work" , function(req, res){
         res.render("list" , {listTitle: "work List", newListItems: workItems});
+    });
+
+
+    // to add about page 
+    app.get("/about" , function(req , res){
+        res.render("about");
     })
 
 
