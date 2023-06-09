@@ -3,6 +3,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
+var _ = require("lodash");
 
 var posts = [];
 
@@ -49,18 +50,28 @@ app.get("/contact" , function(req , res){
   res.render("contact" , {contact : contactContent});
 })
 
-app.get("/compose" , function(req , res){
-  res.render("compose")
+app.get("/compose"  , function(req , res){
+  res.render("compose") 
 })
 
+
+
+// route parameter
+// the request will be like (localhost3000/post/helloWorld)
 app.get("/post/:postName" , function(req , res){
- const requestedTitle = req.params.postName;
+ 
+ const requestedTitle = _.lowerCase(req.params.postName)
+ //console.log(requestedTitle);
  posts.forEach(function(post){
-  const storedTitle = post.title;
+  
+  const storedTitle = _.lowerCase(post.title)
 
   if(storedTitle === requestedTitle){
-    console.log("Match found");
+    res.render("post" , {
+                        title : post.title ,
+                        content : post.content} )
   }
+  
  })
 })
 
