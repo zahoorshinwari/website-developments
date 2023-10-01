@@ -8,12 +8,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 const port = 3000;
 
-
-
-
-
-
-
 // simple addition calculator
 // here it will get data from index.html
 app.get("/", function(req , res){
