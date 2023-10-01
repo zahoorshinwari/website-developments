@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding this keyword</title>
+</head>
+<body>
+    
+
+    <p style="color: red;" id="para1" onclick="paraFun(this)">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi saepe dignissimos est, quod officiis reiciendis beatae deleniti aliquam iste nam necessitatibus nihil nobis, porro ducimus cupiditate recusandae ullam unde aspernatur?</p>
+    <p style="color: blue;" id="para2" onclick="paraFun(this)">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi saepe dignissimos est, quod officiis reiciendis beatae deleniti aliquam iste nam necessitatibus nihil nobis, porro ducimus cupiditate recusandae ullam unde aspernatur?</p>
+
+
+    <script>
+        const paraFun = (para) => {
+           // console.log(para);
+            
+
+           if(para.id === "para1"){
+            console.log("para1")
+           }
+           else{
+            console.log("para2");
+           }
+        
+        }
+    </script>
+
+</body>
+</html>

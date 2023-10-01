@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventHandling</title>
+</head>
+<body>
+    
+    <h1>event Handling</h1>
+    
+    <h2>when mouse become clicked</h2>
+    <button id="btn" onclick="listen() ">Click</button>
+    <h2>when mouse become entered</h2>
+    <button id="btn" onmouseenter="listen() ">Click</button>
+    
+
+
+
+    <h2>when input field is clicked </h2>
+    <form action="">
+        <input type="text" id="input" onclick="inputListener()">
+    </form>
+
+
+
+    <h2>onkey press use for validation and auto suggetion</h2>
+    <form action="">
+        <input type="text" id="keyPress" onkeypress="change()">
+    </form>
+
+
+
+    <p onmouseenter="remove()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, in! Animi, soluta. Quis quibusdam, deserunt omnis maxime perferendis reprehenderit rem nobis, voluptatem saepe nihil aliquam accusantium, illo est quisquam quam!</p>
+
+
+    <script>
+
+        const listen = () => alert("button clicked");
+
+
+
+        const inputListener = () => {
+            console.log("input clicked");
+        }
+
+
+
+        const change = () => {
+            console.log("changed");
+        }
+
+
+
+
+
+        const remove = () => {
+            document.write();
+        }
+    </script>
+
+</body> 
+</html>

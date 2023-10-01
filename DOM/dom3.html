@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing the Dom</title>
+</head>
+<body>
+    
+
+    <button onclick="clicked()">click</button>
+    <h1 id="head1">this is heading no 1</h1>
+
+
+    <button onclick="innerTextChange()">change inner text</button>
+    <h2 id="head2">this is heading no 2</h2>
+
+
+    <script>
+        // changing inner text of tags
+
+        // from inner html function we will get the inner text from it.
+        // we will pass the html tag as well as inner text
+        const clicked = () => {
+
+           document.getElementById("head1").innerHTML = "<u> hello pakistan </u>"
+            // extract data from head1
+            const t = document.getElementById("head1").innerHTML;
+            // convert the head1 data (string) into uppercase
+            const cap = t.toUpperCase();
+            // show the uppercase data on Dom
+            document.getElementById("head1").innerHTML = cap;
+        }
+
+
+
+        // it will only change the text
+        // can't change the html tag
+        const innerTextChange = () => {
+            document.getElementById("head2").innerText = "<u>this is pakistan</u>";
+        }
+    </script>
+</body>
+</html>

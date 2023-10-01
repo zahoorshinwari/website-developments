@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    
+
+    <h1 id="head1">This is heading no 1</h1>
+
+    <p class="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo repellendus quos beatae exercitationem voluptas vero inventore magnam optio consequuntur, dolorum porro! Voluptates, quas molestias illo praesentium commodi repellat dolorum obcaecati!</p>
+    <p class="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo repellendus quos beatae exercitationem voluptas vero inventore magnam optio consequuntur, dolorum porro! Voluptates, quas molestias illo praesentium commodi repellat dolorum obcaecati!</p>
+
+
+    <h2>this is heading no 2</h2>
+
+
+
+
+    
+    <script>
+        // to search something using id
+        const h1 = document.getElementById("head1");
+
+
+
+        // to search something using class
+        // the class can return array
+        const p = document.getElementsByClassName("para1")
+         
+
+
+        // to search something using tag name
+        const h2 = document.getElementsByTagName("h2")
+
+
+
+        // searching using query selector
+        // it is more easy to select class and id 
+        const head = document.querySelector("#head1")
+        const paragraph = document.querySelector(".para1")
+        const tag = document.querySelector("h2")
+        
+        
+    </script>
+</body>
+</html>

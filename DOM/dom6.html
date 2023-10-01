@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating element usign dom</title>
+</head>
+<body>
+    
+
+    <button onclick="domChange()">clicked</button>
+
+    <div id="div1">
+
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repudiandae cupiditate, voluptatibus vero culpa perspiciatis quaerat officiis blanditiis deleniti ea nemo in quasi enim explicabo, reiciendis vel! Saepe, a. Magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repudiandae cupiditate, voluptatibus vero culpa perspiciatis quaerat officiis blanditiis deleniti ea nemo in quasi enim explicabo, reiciendis vel! Saepe, a. Magnam.</p>
+
+
+
+    <script>
+        const domChange = () => {
+           
+            const p = document.createElement("p");
+            p.id = "abc";
+            p.innerHTML = "This is new paragraph that we are created dynamically";
+            p.style.color = "yellow";
+            document.body.appendChild(p);
+
+
+            const h = document.createElement("h1")
+            h.id = "head1";
+            h.innerHTML = "this is new heading no 1";
+            document.body.appendChild(h);
+        
+            
+            
+        }
+    </script>
+
+</body>
+</html>

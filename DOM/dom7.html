@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating element and apending in other place in the document</title>
+</head>
+<body>
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating element usign dom</title>
+</head>
+<body>
+    
+
+    <button onclick="domChange()">clicked</button>
+
+    <div id="div1">
+
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repudiandae cupiditate, voluptatibus vero culpa perspiciatis quaerat officiis blanditiis deleniti ea nemo in quasi enim explicabo, reiciendis vel! Saepe, a. Magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repudiandae cupiditate, voluptatibus vero culpa perspiciatis quaerat officiis blanditiis deleniti ea nemo in quasi enim explicabo, reiciendis vel! Saepe, a. Magnam.</p>
+
+
+    <ul id="items">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+
+    <script>
+        const domChange = () => {
+           
+
+
+            // creating new paragraph and heading in the div dynamically
+            const p = document.createElement("p");
+            p.id = "abc";
+            p.innerHTML = "This is new paragraph that we are created dynamically";
+            p.style.color = "yellow";
+            
+
+
+            
+            
+            const h = document.createElement("h1");
+            h.id = "head1";
+            h.innerHTML = "this is heading no 1 and are appended in the div";
+            h.style.color = "red";
+           
+            div1.style.border = "5px solid black"; 
+            document.getElementById("div1").appendChild(p )
+            document.getElementById("div1").appendChild(h)
+
+
+
+            // creating new list item dynamically
+            const li = document.createElement("li");
+            li.textContent = "new item";
+            document.getElementById("items").appendChild(li);
+
+        }
+    </script>
+
+</body>
+</html>
+</body>
+</html>

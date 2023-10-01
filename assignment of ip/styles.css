@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+}
+
+hr {
+    background-color: white;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 5px;
+    height: 0px;
+
+}
+
+h3{
+    font-size: large;
+    font-weight: bold;
+}
+
+h1 , h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+
+.card {
+    background-color: lightgrey;
+    border: none;
+}
+
+
+
+footer {
+    color: lightskyblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+
+}

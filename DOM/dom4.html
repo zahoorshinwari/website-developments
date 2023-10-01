@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    
+
+    <button onclick="changeDom()">click</button> <br>
+    <img src="apple.png" alt="apple" id="img1" width="100" height="100">
+
+
+
+
+
+    <form id="f1">
+        <label for="">User name</label>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="">Password</label>
+        <input type="password" id="password" name="password">
+    </form>
+
+
+
+
+
+    <p id="para1" style="color: red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas fugiat recusandae cupiditate, quisquam, consequuntur et asperiores aspernatur sed veniam unde consequatur maiores aut beatae autem neque nostrum accusamus nisi ab.</p>
+    <script>
+
+        // changing attributes of tags
+        const changeDom = () => {
+            document.getElementById("img1").src = "crash.png"
+            document.getElementById("img1").width = "400"
+            document.getElementById("img1").height = "400"
+            
+            
+
+
+        //document.forms["f1"]["username"].value = "testing";
+        //document.forms["f1"]["password"].value = "khan khan";
+
+         const username = document.forms[0]["username"].value;
+         const password = document.forms[0]["password"].value;
+        
+        console.log(username);
+        console.log(password);
+
+
+
+
+
+        document.querySelector("#para1").style.color = "blue";
+        document.querySelector("#para1").style.backgroundColor = "yellow";
+        document.querySelector("#para1").style.borderTop = "5px solid red";
+        
+    }
+    </script>
+ 
+
+</body>
+</html>
